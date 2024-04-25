@@ -12,7 +12,7 @@
     <button id="bt" onclick="off()">Off</button>
     <h1 id="1"></h1>
 
-    <form action="" id="frm" onsubmit="return validate()" >
+    <form action="" id="frm" oninput="changeFont()" onsubmit="return validate()" >
         <input id="first" type="text" placeholder="First Name" value="" required>
         <input id="second" type="text" placeholder="Last Name" value="">
         <button id="submit" type="submit" >Submit</button>
@@ -25,6 +25,33 @@
         </div>
     </div>
     <button id="move">Click to silde the red box</button>
+    <h1 id="id1" onclick="changeText(this)">This is javasrcipt tutorial</h1>
+
+    <div id="new">
+        <p id="p1">This is paragraph 1</p>
+        <p id="p2">This is paragraph 2</p>
+    </div>
+    <div style="margin: 10px;">
+        <p id="print"></p>
+    </div>
+    <div id="grid" >
+
+        <div style="margin-top: 5px;">
+            <button>Tina</button>
+            <button>Mina</button>
+            <button>Dika</button>
+        </div>
+        <div style="margin-top: 5px;">
+            <button>Abul</button>
+            <button>Babul</button>
+            <button>Cabul</button>
+        </div>
+        <div style="margin-top: 5px;">
+            <button>Dabul</button>
+            <button>Ebul</button>
+            <button>Fubul</button>
+        </div>
+    </div>
 
     <script src="/script.js" ></script>
 </body>
